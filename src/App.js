@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Container from "./components/Container/Container.js";
-import Button from "./components/Button/Button.js";
-import FormattedTime from "./components/FormattedTime/FormattedTime.js";
+import Container from "./components/Container/Container";
+import Button from "./components/Button/Button";
+import FormattedTime from "./components/FormattedTime/FormattedTime";
 
 const App = () => {
 	const [time, setTime] = useState(0);
